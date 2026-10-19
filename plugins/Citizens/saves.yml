@@ -1,0 +1,370 @@
+# Citizens NPC Storage
+last-created-npc-id: 2
+npc:
+- metadata:
+    cached-skin-uuid: 7da713c9-b1d6-46ad-84b2-948a2fc905b2
+    cached-skin-uuid-name: mushroom
+  traits:
+    owner:
+      uuid: 22530381-06ea-4587-bc6d-dfbcba593d28
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    skintrait:
+      signature: u06rvnYOfrJK5eS8jOQyzxo/y68RRAvPlI9VHYpIX3OvcCIAk5CrnBxhnPG1mh1YYPix9Vt6yh/sNFK61EViLVVDED4wNRth82s/jByxt4h1uMEQmm/cnl7eOUxpn3W7TGQL134B62J6slgVIHKLMneZBPH+wh/NSC0C1Dc2Zc8u22gGYnTgxy27759Emj6hvVjT08gFKtulY0bjquHZ09faz3BBM0NnDGjvuSxYZaXWJjjT8BN/HJGGO6/TEXxs/2ATPIR4g9J+MRk4VDdF6odnlvmQMUOEWjwTz5zH+3s8fOiNMsBCI62kVgoLwr2Rd9lrPLxdxd1Vz5G7Cji7GTzdlwfxKDJsJtE0ireKe/cUqtBy+PaG5w64h/JDqg0trLI4HcyufN3HJwOkqa5DAAlsDClYWzIk7OioTnIzeUPhn7J9Sdc7AUf2yxMcB37r/TuoVA+/Tg/PVvNymTNjg3wWYJpjMcwEf8eLrFRwf7/CJb7KyHMoVTX51IxgEcEvUpSs9RU4vS3yDGtxJMbqtAvqbz13rD2sAJaOJ2CCTv6Evpx+agpltvac8pRvZ8zpzzxUU+wwlri+s6NWgKXmeV00WySSsJnWXos4HO6Xa2nX6WKjj9qcN6TKXU69wXCA1Y7Cdm6N7I6wAQ9+1E334IApioRAP0uQvaH3ZmLxU9s=
+      skinName: mushroom
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc5MjI2NTAzNzI4OSwKICAicHJvZmlsZUlkIiA6ICI3ZGE3MTNjOWIxZDY0NmFkODRiMjk0OGEyZmM5MDViMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdXNocm9vbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNzNiZjFiNDYzNWVkZDE2MzQ4ZTU1MTljMGY3YjYyYmY3NmY1OTlkYTJiNjc4ZjFhYzE1ODFjMGVjZWFjY2E2IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+    location:
+      world: world
+      worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+      x: 1.857
+      y: 60.0
+      z: -27.4998
+      bodyYaw: 269.98245
+      pitch: 1.7999
+      yaw: -90.0175
+    type: PLAYER
+    waypoints:
+      linear:
+        points:
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: 11.0
+            y: 60.0
+            z: -26.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 60.0
+            z: -26.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 60.0
+            z: -41.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 61.0
+            z: -51.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -2.0
+            y: 61.0
+            z: -51.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -2.0
+            y: 61.0
+            z: -42.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -2.0
+            y: 61.0
+            z: -27.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: 8.0
+            y: 60.0
+            z: -26.0
+            pitch: 0.0
+            yaw: 0.0
+      provider: linear
+  traitnames: owner,scoreboardtrait,spawned,skintrait,leashedtrait,location,type,inventory,targetable,waypoints,chunktickettrait
+  name: Paweł Muchomor
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 587664c0-b442-4868-ac31-fd8551f10637
+- metadata:
+    cached-skin-uuid: cfbc08a9-44aa-4c64-aaba-8c4e9cf38f4c
+    cached-skin-uuid-name: e374e00f-9275-4421-ae4f-9fe386a82a79
+  traits:
+    owner:
+      uuid: 22530381-06ea-4587-bc6d-dfbcba593d28
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    commandtrait:
+      commands:
+      - op: true
+        command: npc_serwer marian_jackowski
+        hand: BOTH
+        player: true
+      - op: true
+        command: npc_serwer marian_jackowski
+        hand: BOTH
+        player: true
+    skintrait:
+      signature: dmkwcNSgqJsKUm/Dq9w26r8tt4UI5C7hQr5/EN6AK+eAw7VYai24E83hR4WPgHeXUadQbDEXS1WDa3edginRg6BxYaBgPnf/0eTruwN8oI1EIa/iZDVHpIo9hFNcIH2cEtxOyrr2t6Z3GI3rT3qMMXgGxHS4QXDOfiCVlFsZ+swCd29x/7FcN5gZz76uCPG3F19gIV7CPKMLqpXml8RIDnmuy8SqoznumQ9qfW/eAG3WSaaxKPuaQ+t7Mi3EwnZjUeY5gEDeWT+QXIIxEEQK+v6NEruXA+4npZ5s8ZOHOpk5IzYcus3J8zHAfjh6YMopxicCwWgxpHVOR4Codn5xMt4Pw1OawfcRxLdFJQCRKrSFdfluxnzHjhnNq99GALVZUjsTE0njtX/XDt6m2fdKP2XwRuQx7hryPIhEPY/voSZjaCVgqmNBppReD5SeEKmw6yWVWWilKOBo66LQbbptiuF3z7eeJP2yfmhwKbyVVbgIRHIugpYapdumezCFWxaa3FqmgXCT2o1J4Oy0PGryKTG9l8IhXlEuTAJYSXPPgz0VSlHAdtKxfWR1Lxg0zOvLQFbLpUFt1BcsgEZOAieCsPn0NusSq6qL/bdnijVP5wYgqD++H2i2cG82BGZxi7isl9fbdT5WfBp0iGyVpcC2AoL8MNpKyPkFCGixW4ot/PI=
+      skinName: e374e00f-9275-4421-ae4f-9fe386a82a79
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNDM3OTgyNjQ1NCwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5NDFhM2JiYmIxZWQ3ZjFhN2Y4MjQ5MjMwNTVlZDA4ZjRiZWFmMmRjNGIxNDM3OWMwMmFhODA3NTVlY2RkYiIKICAgIH0KICB9Cn0=
+    location:
+      world: world
+      worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+      x: -5.6278
+      y: 61.0
+      z: -40.4951
+      bodyYaw: 311.42166
+      pitch: 2.6997
+      yaw: -48.5783
+    type: PLAYER
+    waypoints:
+      linear:
+        points:
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 60.0
+            z: -25.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 60.0
+            z: -41.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -8.0
+            y: 61.0
+            z: -41.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -9.0
+            y: 63.0
+            z: -48.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -8.0
+            y: 61.0
+            z: -47.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -11.0
+            y: 61.0
+            z: -47.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -11.0
+            y: 61.0
+            z: -49.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -8.0
+            y: 61.0
+            z: -44.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -6.0
+            y: 61.0
+            z: -41.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 61.0
+            z: -38.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 61.0
+            z: -32.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -3.0
+            y: 61.0
+            z: -27.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -1.0
+            y: 60.0
+            z: -25.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: 4.0
+            y: 60.0
+            z: -25.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: 10.0
+            y: 60.0
+            z: -25.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: 11.0
+            y: 60.0
+            z: -21.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: 11.0
+            y: 60.0
+            z: -26.0
+            pitch: 0.0
+            yaw: 0.0
+        - location:
+            world: world
+            worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+            x: -1.0
+            y: 60.0
+            z: -26.0
+            pitch: 0.0
+            yaw: 0.0
+      provider: linear
+  traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,leashedtrait,location,type,inventory,waypoints,targetable,chunktickettrait
+  name: Marian Jackowski
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 656eb5e6-0f7e-4fe3-9805-207579078cd4
+- metadata:
+    cached-skin-uuid: 1cbf4767-269a-4d1c-b7e9-b3bfb133ede0
+    entity-aggressive: true
+    cached-skin-uuid-name: mieczyslaw
+  traits:
+    owner:
+      uuid: 22530381-06ea-4587-bc6d-dfbcba593d28
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    rotationtrait:
+      globalParameters:
+        headOnly: false
+        immediate: false
+        maxYawPerTick: 40.0
+        linkedBody: false
+        maxPitchPerTick: 10.0
+        lockPitch: false
+    skintrait:
+      signature: O+3L4DAktyPQgocQ/Q4Zsq58DukuLsT2yXcqSW79dPBL3X/pPzvMdD7m8X2gtS8JmLHan5FKGVPzdIvnZs2ukON0cGBMsHOvnPCeYqQHO8GQZ9U2Q9fWblkQLI+8CQazstrKyhDVMZKymbZJm71kFvwl0aIJ5TBI0Ve5rgyuNvCAU7dvxt7zLEGBySNhD8DEm0Jy6HVyAsX4cVJu5lLlvgQ981HWFN748ANMvu8ZBi9ApD1zyU9WmUViQ0jxV2Ih39qZDzOTL3wjKKOwdT2/wmQU14bSPtMxQIgU6Ut5uH6UceF55n6ROy2Qbn+HIo6eurcA7H2HszUHBoikiBmZW4dvq7cr8a9kAMAlLijDOl/TB1DrrsNZvpWHuEuVf9Li9H332hTJ2hQnIhYof/FHYBsRojolbmD5GjkT7nZljODEsd/beia4iHMe2ZhtgQF1snmhHnJcyZEDzg/jnvtcho25yqc42121/CdBQfLL/fr2KBQVETWNvMCHbkZ6kwD9o8G0nfvtmoOoiZZSuPKNqlKNLkmxGBxTqCemM+tCJ6brcultfXu09wWLkxsq5VJbXkPiYeKRrj0coPhBhG6ETwb1TjbezVbttNDlFO9CAnBsH4Q38Jq3Fpgbn/9L3rbw3rX43/BXt8oJvFhpxBfj1xpU2qEGXJNLmUQi3g6gv04=
+      skinName: mieczyslaw
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc5MjMxMzM5MDI3MywKICAicHJvZmlsZUlkIiA6ICIxY2JmNDc2NzI2OWE0ZDFjYjdlOWIzYmZiMTMzZWRlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtaWVjenlzbGF3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhMmZjZjk1ZjE5MzJjMmQxNjU1NmM4ZGZjZmNlNWY3MWQ4Nzg2ZDgzMjk4NDY1ZTdhNGVmYzk1MDQzYTcyMmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    lookclose:
+      enableRandomLook: false
+      disablewhilenavigating: true
+      headonly: false
+      randomSwitchTargets: false
+      randomYawRange:
+      - 0.0
+      - 360.0
+      realisticlooking: false
+      linkedbody: false
+      range: 10.0
+      randomLookDelay: 60
+      enabled: true
+      targetnpcs: false
+      perplayer: false
+      randomPitchRange:
+      - 0.0
+      - 0.0
+    equipment:
+      hand:
+        amount: 1
+        editable_components:
+          edited: false
+          display_name: §fPiwo
+        meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAALcG90aW9uLXR5cGV1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAZQT1RJT050AI17InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlBpd28iLCJjb2xvciI6IndoaXRlIiwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2V9XX10ABltaW5lY3JhZnQ6c3Ryb25nX3N0cmVuZ3Ro
+        type: potion
+    location:
+      world: world
+      worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+      x: -13.4537
+      y: 52.4625
+      z: -21.4891
+      bodyYaw: -59.26903
+      pitch: -44.7155
+      yaw: -59.269
+    type: PLAYER
+    inventory:
+    - amount: 1
+      editable_components:
+        edited: false
+        display_name: §fPiwo
+      meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAALcG90aW9uLXR5cGV1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAZQT1RJT050AI17InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IlBpd28iLCJjb2xvciI6IndoaXRlIiwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2V9XX10ABltaW5lY3JhZnQ6c3Ryb25nX3N0cmVuZ3Ro
+      type: potion
+    sittrait:
+      sittingAt:
+        world: world
+        worldid: ab1d02fd-9c65-4d1c-98bb-07395973e518
+        x: -13.4537
+        y: 53.0625
+        z: -21.4891
+        pitch: 0.7499
+        yaw: 179.7612
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,equipment,type,inventory,sittrait,leashedtrait,location,chunktickettrait
+  name: Mieczysław Panek
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 706d9cda-2fa1-4550-aec6-a45519e8f268

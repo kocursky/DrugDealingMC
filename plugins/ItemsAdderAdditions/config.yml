@@ -1,0 +1,42 @@
+worldguard:
+  flags:
+    bed_use: true
+    actions: true
+    storage_open: true
+    stackable_place: true
+    custom_painting_place: true
+    contact_damage: true
+  enabled: true
+actions:
+  clear_item: true
+  message: true
+  teleport: true
+  play_emote: true
+  title: true
+  actionbar: true
+  veinminer: true
+  open_inventory: true
+  play_animation: true
+  toast: true
+  swing_hand: true
+  shoot_fireball: true
+  mythic_mobs_skill: true
+  ignite: true
+  replace_biome: true
+  replace_item: true
+  open_trade_machine: true
+behaviours:
+  contact_damage: true
+  connectable: true
+  stackable: true
+  storage: true
+  bed: true
+  text_display: true
+  contact_effect: true
+update-checker:
+  enabled: true
+  on-join: true
+features:
+  creative_inventory_integration: true
+  custom_paintings: true
+  item_model_definitions: true

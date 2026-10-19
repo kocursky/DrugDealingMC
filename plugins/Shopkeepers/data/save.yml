@@ -1,0 +1,225 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 4|3|4903
+'1':
+  uniqueId: 807c13e4-5089-4455-ad79-68e5fa04ed1b
+  world: world
+  x: 17
+  y: 60
+  z: -24
+  yaw: 112.55176
+  type: admin
+  open: true
+  name: Jakub Marny
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:mason
+    villagerType: minecraft:plains
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:mycelium
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Grzybnia",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 5
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:soul_torch
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Lampa
+            Grzybna",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '3':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:farmland
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ziemia
+            Uprawna",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '4':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:iron_hoe
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Żelazny
+            Szpadelek",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 5
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+  snapshots: []
+'2':
+  uniqueId: cd0af9a1-b892-4c50-98e5-82b4a81d9184
+  world: world
+  x: -14
+  y: 53
+  z: -29
+  yaw: 345.16693
+  type: admin
+  open: true
+  name: Seba
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:weaponsmith
+    villagerType: minecraft:swamp
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:redstone
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Fosfor",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"50$",underlined:0b}'
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:dragon_breath
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Kwas",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"50$",underlined:0b}'
+    '3':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:redstone
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Fosfor",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 10
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '4':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:dragon_breath
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Kwas",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 10
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '5':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:mycelium
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Grzybnia",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '6':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:soul_torch
+        count: 2
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Lampa
+            Grzybna",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '7':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:farmland
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ziemia
+            Uprawna",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+    '8':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:iron_hoe
+        count: 1
+        components:
+          minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Żelazny
+            Szpadelek",underlined:0b}],text:""}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+        components:
+          minecraft:lore: '[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"Cool
+            kaska",underlined:0b}]'
+          minecraft:custom_name: '{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"10$",underlined:0b}'
+  snapshots: []

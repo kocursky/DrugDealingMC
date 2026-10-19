@@ -1,0 +1,237 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:painting/variant",
+    "cases": [
+      {
+        "when": "ia_creative:drugs_cocaineleaf",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cocaineleaf"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_cocaine",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cocaine"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_cocainepackage",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cocainepackage"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_weedleaf",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/weedleaf"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_joint",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/joint"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_weedpackage",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/weedpackage"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_tobaccoleaf",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/tobaccoleaf"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_driedtobaccoleaf",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/driedtobaccoleaf"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_tobacco",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/tobacco"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_cigar",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cigar"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_cigarette",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cigarette"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_peyote",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/peyote"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_peyoteslice",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/peyoteslice"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_magicmushroom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/magicmushroom"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_lsapowder",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/lsapowder"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_pipewithlsa",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/pipewithlsa"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_lsakohresidue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/lsakohresidue"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_lsdblotter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/lsdblotter"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_cbpill",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cbpill"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_mdmapill",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/mdmapill"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_emptypipe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/emptypipe"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_filter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/filter"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_left_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_left_blue"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_right_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_right_blue"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_search",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_search"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_cancel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_cancel"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_arrow_chest",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_arrow_chest"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_back_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_back_orange"
+        }
+      },
+      {
+        "when": "ia_creative:_iainternal_icon_next_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "_iainternal:item/ia_auto/icon_next_orange"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_cocaineseed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/cocaineseed"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_weedseed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/weedseed"
+        }
+      },
+      {
+        "when": "ia_creative:drugs_lsaseed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "drugs:item/ia_auto/lsaseed"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/painting"
+    }
+  }
+}
