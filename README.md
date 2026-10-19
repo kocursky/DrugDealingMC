@@ -32,4 +32,4 @@ Wykonaj polecenie './start.sh'
 
 ## Ważne!
 
-Jeżeli serwer się nie uruchumia, wejdź w plik eula.txt, i zmień 'eula=false' na 'eula=true'
+Jeżeli serwer się nie uruchamia, wejdź w plik eula.txt, i zmień 'eula=false' na 'eula=true'
