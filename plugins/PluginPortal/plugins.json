@@ -1,0 +1,61 @@
+[
+  {
+    "entryId": "68813756d1528bfc8a6782f6",
+    "platformId": "5qkQnnWO",
+    "name": "PluginPortal",
+    "version": "3.8.7",
+    "platform": "MODRINTH",
+    "sha256": "b2ef92b7c94771e01c7569879fc1fae970f075556aa49b3e73ac20fd9d5b32cf",
+    "sha512": "da6413522ab1d6f3a532921aed0216816346ea02a64f763f9bfc0394b3748206eb6cfdaa52bdb1cdc2161aea0dd7e727ba64413a4bf5a61d6e96281f56fc50f6",
+    "installedAt": 1792310135434,
+    "excludedFromUpdates": false
+  },
+  {
+    "entryId": "6872c514d1528bfc8a2ddcbd",
+    "platformId": "hXiIvTyT",
+    "name": "EssentialsX",
+    "version": "2.22.0",
+    "platform": "MODRINTH",
+    "sha256": "bda4685105977fca2e209820a9f0ad24275bd103390a03236f38e59bfdac58e6",
+    "sha512": "472ecf71924801723643ca6e1f9931297de5aa0874a544f8a719e2e2f7c81af81ef7bcbd38b6e43f0260a9dae6abe42c97907e70e2430e326ff8cff12ebd61cf",
+    "installedAt": 1790693089032,
+    "preferredChannel": "release",
+    "excludedFromUpdates": false
+  },
+  {
+    "entryId": "68809d88d1528bfc8a656ac8",
+    "platformId": "ayRaM8J7",
+    "name": "VaultUnlocked",
+    "version": "2.20.3",
+    "platform": "MODRINTH",
+    "sha256": "fbc6651aca11e13376c115df66eeffa79592e79517be398299aa6beb49c22695",
+    "sha512": "0eedea1591459e7e327315b43afa834a173c8c2ae31b3b235586d31963df29a4a6c0ef4b8f3fdc746e15afd47ee50c1ff93584543b5c2ef7c2a80135dba1136a",
+    "installedAt": 1790693127900,
+    "preferredChannel": "release",
+    "excludedFromUpdates": false
+  },
+  {
+    "entryId": "6872c52fd1528bfc8a2ddf0e",
+    "platformId": "a0tlbHZO",
+    "name": "SkBee",
+    "version": "3.26.0",
+    "platform": "MODRINTH",
+    "sha256": "68c0bc5a98478ffe16ad08e179bdf3825bbb4efcc4c68bfe81345e28b79ed4a2",
+    "sha512": "58d9cc25206c19e7762cfbb3b80b7464755797da11fbb214136d1c89c7296443220f6caf0503f5c6336fadb01fad0798a262fce0383a8451795660e15bbc3193",
+    "installedAt": 1790693247224,
+    "preferredChannel": "release",
+    "excludedFromUpdates": false
+  },
+  {
+    "entryId": "6946a794889e799af9ec3b2d",
+    "platformId": "xFNYAvMk",
+    "name": "Skript",
+    "version": "2.16.2",
+    "platform": "MODRINTH",
+    "sha256": "14cf743ee2c7cdd014bc63993c9092965edec3bdecff93ae47626fdef5d23b10",
+    "sha512": "08c1a8f25765c23e06b01fc2221c4841874d2bf2cc5288c78de59d1023fb44a230341fe7e61a52e4f18ccf72de712a4a5842c32cfefee5fc6801c6bbe38cdadc",
+    "installedAt": 1790693727035,
+    "preferredChannel": "release",
+    "excludedFromUpdates": false
+  }
+]

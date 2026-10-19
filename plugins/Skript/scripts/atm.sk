@@ -1,0 +1,88 @@
+on right click:
+    if second line of event-block contains "[ATM]":
+        cancel event
+        set {_gui} to chest inventory with 5 rows named "&c[ATM]"
+
+        open {_gui} to player
+
+        set slot 10 of {_gui} to diamond named "&aWpłać 5$"
+        set slot 19 of {_gui} to diamond named "&aWpłać 10$"
+        set slot 28 of {_gui} to diamond named "&aWpłać 50$"
+
+        set slot 22 of {_gui} to player head named "Stan Konta: %player%: %player's balance%"
+
+        set slot 16 of {_gui} to emerald named "&aWypłać 5$"
+        set slot 25 of {_gui} to emerald named "&aWypłać 10$"
+        set slot 34 of {_gui} to emerald named "&aWypłać 50$"
+
+
+on inventory click:
+    if name of player's current inventory contains "ATM":
+        
+        cancel event
+# Wpłacanie
+        if event-slot is 10:
+            if player have emerald named "&a&l5$" with lore "&8&oCool kaska":
+                remove 1 emerald named "&a&l5$" with lore "&8&oCool kaska" from player's inventory
+                add 5 to player's account
+                set slot 22 of player's current inventory to player head named "Stan Konta: %player%: %player's balance%"
+            else:
+                send "&cNie masz wystarczająco pieniędzy na gotówki!"
+                close player's inventory
+
+        else if event-slot is 19:
+            if player have emerald named "&a&l10$" with lore "&8&oCool kaska":
+                remove 1 emerald named "&a&l10$" with lore "&8&oCool kaska" from player's inventory
+                add 10 to player's account
+                set slot 22 of player's current inventory to player head named "Stan Konta: %player%: %player's balance%"
+            else:
+                send "&cNie masz wystarczająco pieniędzy na gotówki!"
+                close player's inventory
+        
+        else if event-slot is 28:
+            if player have emerald named "&a&l50$" with lore "&8&oCool kaska":
+                remove 1 emerald named "&a&l50$" with lore "&8&oCool kaska" from player's inventory
+                add 50 to player's account
+                set slot 22 of player's current inventory to player head named "Stan Konta: %player%: %player's balance%"
+            else:
+                send "&cNie masz wystarczająco pieniędzy na gotówki!"
+                close player's inventory
+                
+
+
+
+
+
+# Wypłacanie
+
+        if event-slot is 16:
+            if player's balance is greater than or equal to 5:
+                remove 5 from player's balance
+                add emerald named "&a&l5$" with lore "&8&oCool kaska" to player
+                set slot 22 of player's current inventory to player head named "Stan Konta: %player%: %player's balance%"
+
+            else:
+                send "&cNie masz wystarczająco pieniędzy na koncie!"
+                close player's inventory
+
+        else if event-slot is 25:
+            if player's balance is greater than or equal to 10:
+                remove 10 from player's balance
+                add emerald named "&a&l10$" with lore "&8&oCool kaska" to player
+                set slot 22 of player's current inventory to player head named "Stan Konta: %player%: %player's balance%"
+
+            else:
+                send "&cNie masz wystarczająco pieniędzy na koncie!"
+                close player's inventory
+
+        else if event-slot is 34:
+            if player's balance is greater than or equal to 50:
+                remove 50 from player's balance
+                add emerald named "&a&l50$" with lore "&8&oCool kaska" to player
+                set slot 22 of player's current inventory to player head named "Stan Konta: %player%: %player's balance%"
+
+            else:
+                send "&cNie masz wystarczająco pieniędzy na koncie!"
+                close player's inventory
+        
+            

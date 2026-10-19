@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792313725491
+  login: 1792310143550
+money: '27135.00000000001023'
+last-account-name: xX_koteczek_Xx
+logoutlocation:
+  world: ab1d02fd-9c65-4d1c-98bb-07395973e518
+  world-name: world
+  x: -7.284655446976364
+  y: 62.700000047683716
+  z: -15.801243818510086
+  yaw: -14.3505859375
+  pitch: 42.14990997314453

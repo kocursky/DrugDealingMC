@@ -1,0 +1,15 @@
+plugins: {}
+
+# Replace the empty map above with `plugins:` before uncommenting an example.
+  # floodgate:
+  #   source: geysermc:floodgate
+  #   artifact: spigot
+  #   file: "[PP] floodgate [GEYSERMC].jar"
+  #   updates: manual
+
+  # viaversion:
+  #   source: github:ViaVersion/ViaVersion
+  #   asset: "^ViaVersion.*\\.jar$"
+  #   file: "[PP] viaversion [GITHUB].jar"
+  #   prereleases: false
+  #   updates: manual

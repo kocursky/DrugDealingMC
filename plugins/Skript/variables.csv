@@ -1,0 +1,11 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.16.2
+
+npc_relationship_marian_jackowski::22530381-06ea-4587-bc6d-dfbcba593d28, double, 4000CCCCCCCCCCCD
+npc_unlocked_marian_jackowski::22530381-06ea-4587-bc6d-dfbcba593d28, boolean, 01
+zamowienie_ilosc_marian_jackowski::22530381-06ea-4587-bc6d-dfbcba593d28, long, 0000000000000002
+zamowienie_marian_jackowski::22530381-06ea-4587-bc6d-dfbcba593d28, boolean, 01
+zamowienie_produkt_marian_jackowski::22530381-06ea-4587-bc6d-dfbcba593d28, string, 800D6D6574616D666574616D696E61
+

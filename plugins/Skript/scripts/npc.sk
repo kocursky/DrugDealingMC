@@ -1,0 +1,88 @@
+function reset_deal(p: player):
+    delete {zamowienie_marian_jackowski::%{_p}%}
+    delete {zamowienie_produkt_marian_jackowski::%{_p}%}
+    delete {zamowienie_ilosc_marian_jackowski::%{_p}%}
+
+
+
+function relationship(p: player):
+    if {npc_relationship_marian_jackowski::%{_p}%} < 3:
+        if {zamowienie_produkt_marian_jackowski::%{_p}%} is "grzyb":
+            add 0.1 to {npc_relationship_marian_jackowski::%{_p}%}
+        else if {zamowienie_produkt_marian_jackowski::%{_p}%} is "metamfetamina":
+            add 0.2 to {npc_relationship_marian_jackowski::%{_p}%}
+
+        if {npc_relationship_marian_jackowski::%{_p}%} > 3:
+            set {npc_relationship_marian_jackowski::%{_p}%} to 3
+
+        send action bar "&fRelacja z Marian Jackowski: &7%{npc_relationship_marian_jackowski::%{_p}%}%" to {_p}
+
+
+command /npc_serwer [<text>]:
+    permission: op
+    trigger:
+        if arg-1 is "marian_jackowski":
+            if {npc_unlocked_marian_jackowski::%player%} is true:
+                if {npc_relationship_marian_jackowski::%player%} is set:
+                    if {zamowienie_marian_jackowski::%player%} is true:
+                        if {zamowienie_produkt_marian_jackowski::%player%} is "grzyb":
+                            set {_ilosc} to {zamowienie_ilosc_marian_jackowski::%player%}
+                            if player has {_ilosc} of brown mushroom in inventory:
+
+                                remove {_ilosc} of brown mushroom from player's inventory
+
+                                set {_wyplata} to {zamowienie_ilosc_marian_jackowski::%player%} * 150 * {npc_relationship_marian_jackowski::%player%}
+                                add {_wyplata} to player's account
+                                relationship(player)
+                                reset_deal(player)
+                                send "&fMarian Jackowski: &7Mmmm. Poszanowanko"
+                                
+                                
+                                send title "&a+$%{_wyplata}%" with subtitle "&fZamówienie zakończone dla: &7Marian Jackowski" to player
+                            else:
+                                send "&fMarian Jackowski: &7O ty dupku, ciulu walony. Będziesz z największym ćpunem w mieście zadierał? HMM?"
+                        else if {zamowienie_produkt_marian_jackowski::%player%} is "metamfetamina":
+                            set {_ilosc} to {zamowienie_ilosc_marian_jackowski::%player%}
+                            if player has {_ilosc} of iron nugget named "&fMetamfetamina" in inventory:
+
+                                remove {_ilosc} of iron nugget named "&fMetamfetamina" from player's inventory
+
+                                set {_wyplata} to {zamowienie_ilosc_marian_jackowski::%player%} * 200 * {npc_relationship_marian_jackowski::%player%}
+                                add {_wyplata} to player's account
+                                relationship(player)
+                                reset_deal(player)
+
+                                send "&fMarian Jackowski: &7Mmmm. Poszanowanko"
+ 
+                                send title "&a+$%{_wyplata}%" with subtitle "&fZamówienie zakończone dla: &7Marian Jackowski" to player
+                            else:
+                                send "&fMarian Jackowski: &7O ty dupku, ciulu walony. Będziesz z największym ćpunem w mieście zadierał? HMM?"
+                else:
+                    set {npc_relationship_marian_jackowski::%player%} to 1
+                    
+            else if {npc_unlocked_marian_jackowski::%player%} is not set:
+                set {npc_unlocked_marian_jackowski::%player%} to true
+
+every 1 second:
+    loop all players:
+        set {_szansa_zamowienie_marian_jackowski::%loop-player%} to random integer from 1 and 100
+
+        if {_szansa_zamowienie_marian_jackowski::%loop-player%} is between 1 and 10:
+            if {zamowienie_marian_jackowski::%loop-player%} is not set:
+                set {_drug} to random integer from 1 to 2
+                if {_drug} is 1:
+                    set {zamowienie_marian_jackowski::%loop-player%} to true
+                    set {zamowienie_produkt_marian_jackowski::%loop-player%} to "grzyb"
+                    set {zamowienie_ilosc_marian_jackowski::%loop-player%} to random integer from 1 to 3
+                    send "&fMasz zamówienie! &7Marian Jackowski: &f%{zamowienie_ilosc_marian_jackowski::%loop-player%}%x Grzyb" to loop-player
+                if {_drug} is 2:
+                    set {zamowienie_marian_jackowski::%loop-player%} to true
+                    set {zamowienie_produkt_marian_jackowski::%loop-player%} to "metamfetamina"
+                    set {zamowienie_ilosc_marian_jackowski::%loop-player%} to random integer from 1 to 3
+                    send "&fMasz zamówienie! &7Marian Jackowski: &f%{zamowienie_ilosc_marian_jackowski::%loop-player%}%x Metamfetamina" to loop-player
+
+
+command /npc_reset_relations:
+    permission: op
+    trigger:
+        set {npc_relationship_marian_jackowski::%player%} to 1  
